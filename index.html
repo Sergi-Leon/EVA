@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="./fontawesome/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/poo-solid.svg" type="image/x-icon">
+    <title>EVA</title>
+    <script src="./js/codigo.js"></script>
+</head>
+
+<body>
+    <div id="header" class="row relleno-lat">
+        <h1>Colores CSS</h1>
+        <i class="fas fa-laptop-code fa-3x"></i>
+    </div>
+    <ul>
+        <li><a href="#section-4">Colores predefinidos</a></li>
+        <li><a href="#section-3">RGB y RGBA</a></li>
+        <li><a class="active" href="#section-2">Hexadecimal y Hexadecimal transparente</a></li>
+        <li><a class="active" href="#header"><i class="fas fa-arrow-up"></i></a></li>
+    </ul>
+    <div id="section-1" class="row relleno-lat relleno-extra">
+        <div class="column1">
+            <h2>Tutorial de CSS: Colores CSS</h2>
+        </div>
+        <div class="column1">
+            <iframe width="99%" height="600" src="https://www.youtube.com/embed/nJO1jjKUroI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="section-2" class="row relleno-lat flex relleno-extra">
+        <div class="column2 relleno-col">
+            <h2>Hexadecimal y hexadecimal transparente</h2>
+            <p>El sistema hexadecimal es el sistema de numeración posicional que tiene como base el 16. El sistema de colores hexadecimal está representado por una serie de 6 números que respectivamente representan a la intensidad de: Rojo (#FF0000), Azul
+                (#00FF00) y Verde (#0000FF). El sistema hexadecimal transparente tiene la base la misma que el sistema hexadecimal, pero agregando dos cifras al total de 6 para interpretar la transparencia de la misma, por ejemplo: #FFFFFFFF.</p>
+        </div>
+        <div class="column2 relleno-col">
+            <img class="imagen" src="./img/section-1.jpg" alt="Colores hexadecimales">
+        </div>
+    </div>
+    <div id="section-3" class="row relleno-lat flex relleno-extra">
+        <div class="column2 relleno-col">
+            <img class="imagen" src="./img/section-2.gif" alt="RGB y RGBA">
+        </div>
+        <div class="column2 relleno-col">
+            <h2>RGB y RGBA</h2>
+            <p>RGB se compone por los 3 colores primarios (Rojo, Verde y Azul). RGB se trata de un modelo mediante el cual es capaz de representar distintos colores a partir de la mezcla de los tres colores primarios.​ Está dividido en 3 columnas, y en cada
+                columna hay un número del 0 hasta el máximo que es el 255. La primera columna indica el color Rojo, la segunda columna indica el color Verde, y la tercera columna indica el color Azul. RGB se basa en la cantidad de iluminación que se le
+                aplica a estos tres colores primarios, y dependiendo de dicha iluminación conseguiremos un color u otro. RGBA tiene la misma función que el RGB, pero añadiendo el canal "Alpha". La función de dicho canal es indicar la opacidad de cada
+                píxel, es decir, podemos ajustar a nuestro gusto el nivel de transparencia del color.​ Al añadirle el Alpha, crea otra columna para definir el nivel de transparencia.​ Para visualizar el color RGB y el color RGBA es a través de números
+                decimales.
+            </p>
+        </div>
+    </div>
+    <div id="section-4" class="row relleno-lat flex relleno-extra">
+        <div class="column2 relleno-col">
+            <h2>Nombres de colores predefinidos</h2>
+            <p>Los nombres de colores predefinidos son aquellos que el lenguaje de CSS puede interpretar tan solo insertándolo textualmente.</p>
+        </div>
+        <div class="column2 relleno-col">
+            <img class="imagen" src="./img/section-3.JPG" alt="Colores predefinidos">
+        </div>
+    </div>
+    <div id="section-5" class="row relleno-lat">
+        <div class="column1 relleno-col">
+            <h5>Aquí puedes elegir el idioma con el cúal querrás ver la página</h5>
+            <select name="language" id="language" onchange="language()">
+                <option value="ES" selected>Castellano</option>
+                <option value="cat">Català</option>
+            </select>
+        </div>
+    </div>
+</body>
